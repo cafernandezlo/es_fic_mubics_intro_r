@@ -1,43 +1,12 @@
-<h1 id="materials">Materials</h1>
+# Fundamentals of Bioinformatics
 
-<ul>
-  <li><a href="https://cafernandezlo.github.io/es_fic_mubics_intro_r/test.html">Compiled</a></li>
-</ul>
+Master's course at the University of A Coruña [(UDC)](https://www.udc.gal). Master in Bioinformatics for Health Sciences [(MUBICS)](https://www.master.bioinformatica.fic.udc.es/), first year from september to february (1st quarter), compulsory, 6 ECTS.
 
-## Welcome to GitHub Pages
+## Introduction to R
 
-You can use the [editor on GitHub](https://github.com/cafernandezlo/es_fic_mubics_intro_r/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This is intended to be an introduction to the R language to those in the Fundamentals of Bioinformatics course at the University of A Coruña without previous knowledge.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Software requirements
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cafernandezlo/es_fic_mubics_intro_r/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- [R](https://www.r-project.org/)
+- [Rstudio](https://rstudio.com/products/rstudio/)
