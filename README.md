@@ -1,3 +1,9 @@
+<h1 id="materials">Materials</h1>
+
+<ul>
+  <li><a href="/r-crash-course/crash-course.nb.html">Compiled</a></li>
+</ul>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/cafernandezlo/es_fic_mubics_intro_r/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
