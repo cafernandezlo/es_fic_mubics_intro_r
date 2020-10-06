@@ -60,7 +60,8 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px so
+lid #e5e5e5;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -117,11 +118,11 @@ header ul {
   background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:180px;
+  width:270px;
 }
 
 header li {
-  width:89px;
+  width:60px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
@@ -160,7 +161,7 @@ strong {
 
 header ul li + li {
   border-right:none;
-  width:89px;
+  width:60px;
 }
 
 header ul a strong {
@@ -257,7 +258,7 @@ footer {
   }
 
   header li, header ul li + li {
-    width:50%;
+    width:33%;
   }
 }
 
