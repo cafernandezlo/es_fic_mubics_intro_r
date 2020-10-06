@@ -1,7 +1,7 @@
 <h1 id="materials">Materials</h1>
 
 <ul>
-  <li><a href="/r-crash-course/crash-course.nb.html">Compiled</a></li>
+  <li><a href="https://cafernandezlo.github.io/es_fic_mubics_intro_r/test.html">Compiled</a></li>
 </ul>
 
 ## Welcome to GitHub Pages
