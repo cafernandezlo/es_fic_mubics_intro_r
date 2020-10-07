@@ -56,7 +56,7 @@ If you need help you can:
 
 [RStudio](https://www.rstudio.com/products/rstudio/) is an integrated development environment (IDE) for R. RStudio requires a 64-bit operating systems (use older versions if you are on a 32 bit system) and is available **open source**.
 
-Rstudio provides us with a friendly interface to the R statistical progrmming language.
+Rstudio provides us with a friendly interface to the R statistical programming language.
 It consists of four main "Panes". These can be re-sized and moved around to suit how
 you like to work.
 
@@ -142,6 +142,21 @@ cos(pi)
 tan(2)
 log(1)
 ```
+
+Here are some more arithmetic operators you're likely to come across.
+
+| Symbol | Effect              |
+| ------ | ------------------- |
+|    +   | Addition            |
+|    –   | Subtraction         |
+|    *   | Multiplication      |
+|    /   | Division            |
+|    ^   | Exponent            |
+|   %%   | Modulus (Remainder) |
+|  %/%   | Integer Division    |
+
+__Note__ that when applying arithmetical functions to vectors they must be appropriate. For example, if you try and add 3 to the character string "a" then R will quite rightly return an error message.
+
 
 Furthermore, in case we will need to store our results for later use, we need to make use of *variables*.
 
@@ -245,20 +260,6 @@ smaller
 
 __Notice that each and every element of the vector has been multiplied by 2.2__. This is what was happening when we used `1:36 * 2` earlier.
 
-Here are some more arithmetic operators you're likely to come across.
-
-| Symbol | Effect              |
-| ------ | ------------------- |
-|    +   | Addition            |
-|    –   | Subtraction         |
-|    *   | Multiplication      |
-|    /   | Division            |
-|    ^   | Exponent            |
-|   %%   | Modulus (Remainder) |
-|  %/%   | Integer Division    |
-
-__Note__ that when applying arithmetical functions to vectors they must be appropriate. For example, if you try and add 3 to the character string "a" then R will quite rightly return an error message.
-
 ```
 > "a" + 3
 Error in "a" + 3 : non-numeric argument to binary operator
@@ -309,7 +310,7 @@ The normal distribution is defined by a *mean* (average) and *standard deviation
 In this case, we see that the defaults for mean and standard deviation are 0 and 1. We can change the function to generate values from a distribution with a different mean and standard deviation using the `mean` and `sd` *arguments*. It is important that we get the spelling of these arguments exactly right, otherwise R will an error message, or (worse?) do something unexpected.
 
 ```{r}
-rnorm(n=10, mean=2,sd=3)
+rnorm(n=10, mean=2, sd=3)
 rnorm(10, 2, 3)
 ```
 
@@ -339,20 +340,20 @@ Try `args()` function e.g. `args(plot.default)`.
 
 #### More useful functions
 
-__`length()`__ to find out how many elements are in a vector
+__`length()`__ - to find out how many elements are in a vector
 
 ```{r}
 length(animals)
 ```
 
-__`class()`__ will tell you the class (suprise) of a vector e.g. character or numeric
+__`class()`__ - will tell you the class (suprise) of a vector e.g. character or numeric
 
 ```{r}
 class(animals)
 class(obs)
 ```
 
-__`str()`__ reports the structure of an object. This terse report includes such useful information as class, index range of elements e.g. 1..n and the values contained therein. The same output can be seen for each object in
+__`str()`__ - reports the structure of an object. This terse report includes such useful information as class, index range of elements e.g. 1..n and the values contained therein. The same output can be seen for each object in
 the Environment pane in the top right-hand pane.
 
 ```{r}
@@ -401,7 +402,7 @@ Computational aspects of these types relate to space required to store the value
 
 __Important__ - you can only store one type of data in any one vector i.e. all logical or all character etc. If you mix them, R will store them in the lowest common denominator of type in order to preserve as much information as possible about the value.
 
-__`summary()`__ -  one of my __favourite__ functions. R gives an object summary of the vector. this means that what is returned depends on the vector. I often use it on data after I have read it in from a file to do a 'sanity check' and find maximum and minimum values etc to spot unexpected (and possibly erroneous) values.
+__`summary()`__ - R gives an object summary of the vector. this means that what is returned depends on the vector. I often use it on data after I have read it in from a file to do a 'sanity check' and find maximum and minimum values etc to spot unexpected (and possibly erroneous) values.
 
 ```{r}
 summary(obs)
